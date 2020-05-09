@@ -1,0 +1,28 @@
+
+.who-we-are-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  .img-who-we-are {
+    border-radius: 5px;
+    width: 45%;
+    margin-right: 30px;
+  }
+}
+
+@media(max-width: 990px) {
+  .who-we-are-section {
+    flex-direction: column;
+
+    .img-who-we-are {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 12px;
+    }
+  }
+
+}

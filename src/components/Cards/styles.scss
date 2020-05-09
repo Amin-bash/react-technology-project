@@ -1,0 +1,11 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+@media(max-width: 770px) {
+  .cards {
+    flex-direction: column;
+  }
+}

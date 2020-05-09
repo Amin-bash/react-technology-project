@@ -1,0 +1,72 @@
+.cards-section {
+  margin: 0px 10px;
+
+  .image {
+    color: #fff;
+    position: relative;
+
+    .hover-title, span {
+      position: absolute;
+      opacity: 0;
+      margin: 0;
+      font-family: Tahoma, Arial;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .date {
+      left: 3%;
+      bottom: 2%;
+    }
+    .views {
+      bottom: 2%;
+      right: 3%;
+    }
+
+    .hover-title {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 25px;
+    }
+    
+    .card-img {
+      transition: 0.3s;
+      display: block;
+      max-height: 217px;
+    }
+    
+  }
+
+  &:hover {
+    cursor: pointer;
+    .card-img {
+      transition-duration: 0.3s;
+      opacity: 0.1;
+      cursor: pointer;
+    }
+
+    .hover-title {
+      transition-delay: 0.2s;
+      transition-duration: 0.4s;
+      opacity: 1;
+    }
+    .date {
+      transition-delay: 0.5s;
+      transition-duration: 0.4s;
+      opacity: 1;
+    }
+    .views {
+      transition-delay: 0.7s;
+      transition-duration: 0.4s;
+      opacity: 1;
+    }
+
+  }
+}
+
+@media (max-width: 770px) {
+  .cards-section {
+    margin-bottom: 20px;
+  }
+}
