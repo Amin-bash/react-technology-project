@@ -1,8 +1,19 @@
 .navbar-dark {
-  
+
+  .nav-link {
+    cursor: pointer;
+  }
   .navbar-brand {
     color: #faff61;
     font-weight: bold;
     font-size: 41px;
+  }
+}
+
+@media(max-width: 550px) {
+  .navbar-dark {
+    .navbar-brand {
+      font-size: 25px;
+    }
   }
 }

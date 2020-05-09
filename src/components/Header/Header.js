@@ -4,7 +4,7 @@ import './styles.scss';
 
 export const Header = () => {
 	return (
-		<div className="container-fluid bg-dark">
+		<div id="home" className="container-fluid header-section bg-dark">
 			<div className="header-img-section">
 				<h1 className="header-title">Enter into IT world</h1>
 				<img className="header-img img-fluid" alt="" src={headerImg} />

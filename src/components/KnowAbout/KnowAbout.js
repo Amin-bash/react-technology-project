@@ -10,9 +10,9 @@ export const KnowAbout = () => {
   generators on the Internet`;
 
 	return (
-		<div className="bg-light-dark p-5">
+		<div id="aboutUs" className="bg-light-dark p-5">
 			<div id="differences" className="text-center">
-					<h2 id="title-section-2" className="title-font">
+					<h2 className="title-font">
 						TO KNOW ABOUT PHONE AND COMPUTER TECHNOLOGY
 					</h2>
 			</div>
@@ -35,7 +35,7 @@ export const KnowAbout = () => {
 
 				<div className="phone-computer-content">
 					<div className="image-effect effect bg-dark">
-						<h3 className="img-titles font">Computer Technology</h3>
+						<h3 className="img-titles ">Computer Technology</h3>
 						<img className="technology-img img-fluid" src={img1} alt="" />
 						<span className="one" />
 						<span className="two" />
@@ -43,7 +43,7 @@ export const KnowAbout = () => {
 						<span className="four" />
 					</div>
 					<div className="computer-section">
-						<h3 className="mt-3">Computers specifications</h3>
+						<h3 className="mt-3 font">Computers specifications</h3>
 						<p className="text-muted p-section">
 							{text}
 						</p>

@@ -114,3 +114,20 @@
     }
   }
 }
+
+@media (max-width: 550px) {
+  .bg-light-dark {
+    .title-font {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .font {
+      font-size: 20px;
+    }
+
+    .p-section {
+      font-size: 14px;
+    }
+  }
+}

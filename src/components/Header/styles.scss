@@ -1,31 +1,42 @@
-.header-img-section {
-  transition: 0.4s;
-  position: relative;
+.header-section {
+  padding: 0;
+  margin-top: 55px;
 
-  .header-title {
-    position: absolute;
-    opacity: 0;
-    margin: 0;
-    font-family: Tahoma, Arial;
-    font-weight: bold;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .header-img-section {
     transition: 0.4s;
-    color: #fff;
+    position: relative;
+  
+    .header-title {
+      position: absolute;
+      opacity: 0;
+      margin: 0;
+      font-family: Tahoma, Arial;
+      font-weight: bold;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: 0.4s;
+      color: #fff;
+    }
+  
+    &:hover .header-title {
+      opacity: 1;
+      transition-delay: 0.3s;
+      transition-duration: 0.4s;
+    }
   }
-
-  &:hover .header-title {
-    opacity: 1;
-    transition-delay: 0.3s;
-    transition-duration: 0.4s;
+  .header-img {
+    display: block;
+    transition: 0.6s;
+  
+    &:hover {
+      opacity: 0.1;
+    }
   }
 }
-.header-img {
-  display: block;
-  transition: 0.6s;
 
-  &:hover {
-    opacity: 0.1;
+@media (max-width: 550px) {
+  .header-title {
+    font-size: 25px;
   }
 }

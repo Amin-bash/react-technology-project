@@ -14,19 +14,19 @@ export const WhoWeAre = () => {
   and more recently with desktop publishing`;
 
 	return (
-		<div>
+		<div id="whoWeAre">
 			<div className="container who-we-are-section">
 				<img className="img-fluid img-who-we-are" src={img1} alt="" />
-				<div id="who-we-are">
-					<h2>Let's talk about difference between Design and Development</h2>
+				<div>
+					<h2 className="title-font">Let's talk about difference between Design and Development</h2>
 					<p className="text-muted">{text}</p>
 				</div>
 			</div>
       <hr />
 			<div className="container who-we-are-section">
 				<img className="img-fluid img-who-we-are" alt="" src={img2} />
-				<div id="About-us">
-					<h2 className="">WHO WE ARE</h2>
+				<div>
+					<h2 className="title-font">WHO WE ARE</h2>
 					<p className="text-muted">{text}</p>
 					<button className="btn btn-info btn-go-here mt-3">Go by here</button>
 				</div>
